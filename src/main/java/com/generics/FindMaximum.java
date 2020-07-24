@@ -9,6 +9,10 @@ public class FindMaximum<E extends Comparable<E>>{
         this.inputZ = inputZ;
     }
 
+    public E testMaximum(){
+        return testMaximum(inputX,inputY,inputZ);
+    }
+
     public static <E extends Comparable<E>> E testMaximum(E x, E y, E z){
         E Tmax=x;
         if(y.compareTo(Tmax) >0){
@@ -25,13 +29,9 @@ public class FindMaximum<E extends Comparable<E>>{
         Float xFl=30.56f,yFl=20.54f,zFl=10.57f;
         String xStr="Apple",yStr="Peach",zStr="Banana";
 
-        new FindMaximum<Integer>(xInt,yInt,zInt).testMaximum();
-        new FindMaximum<Float>(xFl,yFl,zFl).testMaximum();
+        new FindMaximum<Integer>(xInt,yInt,zInt);
+        new FindMaximum<Float>(xFl,yFl,zFl);
         new FindMaximum<String>(xStr,yStr,zStr);
-    }
-
-    private void testMaximum() {
-        testMaximum(inputX,inputY,inputZ);
     }
 
 }
