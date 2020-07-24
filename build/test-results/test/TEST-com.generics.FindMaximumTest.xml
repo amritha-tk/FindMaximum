@@ -1,15 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.generics.FindMaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-07-24T16:46:23" hostname="HARI-PC" time="0.005">
+<testsuite name="com.generics.FindMaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-07-24T17:40:15" hostname="HARI-PC" time="0.024">
   <properties/>
-  <testcase name="givenMaxFloatNumber_AtPositionOne_ReturnSameNumber" classname="com.generics.FindMaximumTest" time="0.002"/>
+  <testcase name="givenMaxFloatNumber_AtPositionOne_ReturnSameNumber" classname="com.generics.FindMaximumTest" time="0.011"/>
   <testcase name="givenStringMax_AtPositionTwo_ReturnSameString" classname="com.generics.FindMaximumTest" time="0.0"/>
   <testcase name="givenMaxIntegerNumber_AtPositionThree_ReturnSameNumber" classname="com.generics.FindMaximumTest" time="0.0"/>
   <testcase name="givenMaxIntegerNumber_AtPositionTwo_ReturnSameNumber" classname="com.generics.FindMaximumTest" time="0.0"/>
   <testcase name="givenMaxFloatNumber_AtPositionThree_ReturnSameNumber" classname="com.generics.FindMaximumTest" time="0.0"/>
-  <testcase name="givenMaxFloatNumber_AtPositionTwo_ReturnSameNumber" classname="com.generics.FindMaximumTest" time="0.0"/>
-  <testcase name="givenStringMax_AtPositionThree_ReturnSameString" classname="com.generics.FindMaximumTest" time="0.0"/>
-  <testcase name="givenStringMax_AtPositionOne_ReturnSameString" classname="com.generics.FindMaximumTest" time="0.0"/>
-  <testcase name="givenMaxIntegerNumber_AtPositionOne_ReturnsSameNumber" classname="com.generics.FindMaximumTest" time="0.0"/>
-  <system-out><![CDATA[]]></system-out>
+  <testcase name="givenMaxFloatNumber_AtPositionTwo_ReturnSameNumber" classname="com.generics.FindMaximumTest" time="0.001"/>
+  <testcase name="givenStringMax_AtPositionThree_ReturnSameString" classname="com.generics.FindMaximumTest" time="0.001"/>
+  <testcase name="givenStringMax_AtPositionOne_ReturnSameString" classname="com.generics.FindMaximumTest" time="0.001"/>
+  <testcase name="givenMaxIntegerNumber_AtPositionOne_ReturnsSameNumber" classname="com.generics.FindMaximumTest" time="0.001"/>
+  <system-out><![CDATA[Max of 30.56 20.54 and 10.57 is 30.56
+ Max of Apple Peach and Banana is Peach
+ Max of 10 20 and 30 is 30
+ Max of 10 30 and 20 is 30
+ Max of 10.57 20.54 and 30.56 is 30.56
+ Max of 20.54 30.56 and 10.57 is 30.56
+ Max of Apple Banana and Peach is Peach
+ Max of Peach Apple and Banana is Peach
+ Max of 30 20 and 10 is 30
+ ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
