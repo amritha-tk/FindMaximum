@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.generics.FindMaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-07-24T10:31:57" hostname="HARI-PC" time="0.006">
+<testsuite name="com.generics.FindMaximumTest" tests="9" skipped="0" failures="0" errors="0" timestamp="2020-07-24T12:30:41" hostname="HARI-PC" time="0.005">
   <properties/>
-  <testcase name="givenMaxFloatNumber_AtPositionOne_ReturnSameNumber" classname="com.generics.FindMaximumTest" time="0.003"/>
+  <testcase name="givenMaxFloatNumber_AtPositionOne_ReturnSameNumber" classname="com.generics.FindMaximumTest" time="0.002"/>
   <testcase name="givenStringMax_AtPositionTwo_ReturnSameString" classname="com.generics.FindMaximumTest" time="0.0"/>
   <testcase name="givenMaxIntegerNumber_AtPositionThree_ReturnSameNumber" classname="com.generics.FindMaximumTest" time="0.0"/>
   <testcase name="givenMaxIntegerNumber_AtPositionTwo_ReturnSameNumber" classname="com.generics.FindMaximumTest" time="0.0"/>
