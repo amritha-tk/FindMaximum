@@ -70,5 +70,26 @@ public class FindMaximumTest {
         Assert.assertEquals("Peach",result);
     }
 
+    @Test
+    public void givenMaxIntegerNumber_AtOptionalPosition_ReturnsSameNumber(){
+        FindMaximum maximum=new FindMaximum(10,20,30,40);
+        Comparable result=maximum.testMaximum();
+        Assert.assertEquals(40,result);
+    }
+
+    @Test
+    public void givenMaxFloatNumber_AtOptionalPosition_ReturnsSameNumber(){
+        FindMaximum maximum=new FindMaximum(30.56f,20.54f,10.57f,40.56f);
+        Comparable result=maximum.testMaximum();
+        Assert.assertEquals(40.56f,result);
+    }
+
+    @Test
+    public void givenStringMax_AtOptionalPosition_ReturnsSameString(){
+        FindMaximum maximum=new FindMaximum("Grapes","Apple","Banana","Peach");
+        Comparable result=maximum.testMaximum();
+        Assert.assertEquals("Peach",result);
+    }
+
 }
 
