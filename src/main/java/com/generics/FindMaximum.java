@@ -32,7 +32,6 @@ public class FindMaximum<E extends Comparable<E>>{
         printMax(Tmax);
 
         return Tmax;
-
     }
 
     public static <E> void printMax(E max){
@@ -47,5 +46,4 @@ public class FindMaximum<E extends Comparable<E>>{
         new FindMaximum<Float>(xFl,yFl,zFl,optFl1).testMaximum();
         new FindMaximum<String>(xStr,yStr,zStr,optStr1).testMaximum();
     }
-
 }

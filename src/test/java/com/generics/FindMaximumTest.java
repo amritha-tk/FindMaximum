@@ -10,7 +10,6 @@ public class FindMaximumTest {
         FindMaximum maximum = new FindMaximum(30, 20, 10);
         Comparable result = maximum.testMaximum();
         Assert.assertEquals(30,result);
-
     }
 
     @Test
@@ -18,7 +17,6 @@ public class FindMaximumTest {
         FindMaximum maximum = new FindMaximum(10, 30, 20);
         Comparable result = maximum.testMaximum();
         Assert.assertEquals(30,result);
-
     }
 
     @Test
